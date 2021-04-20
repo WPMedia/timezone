@@ -91,6 +91,6 @@ publish:
 	make zic && make
 	find . -depth \( -name .AppleDouble -o -name .DS_Store \) -exec rm -rf {} \;
 	find . \( -name .AppleDouble -o -name .DS_Store \) ;
-	(cd build/timezone && npm publish)
+	(cd build/timezone && npm publish --access=public)
 
 .PHONEY: publish

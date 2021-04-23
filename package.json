@@ -19,6 +19,9 @@
     "calendar",
     "strftime"
   ],
+  "files": [
+    "build/timezone"
+  ],
   "homepage": "http://bigeasy.github.io/timezone",
   "bugs": {
     "url": "https://github.com/bigeasy/timezone/issues"
@@ -42,6 +45,5 @@
   "scripts": {
     "test": "NODE_PATH=build util/test",
     "build": "rm -rf build && make"
-  },
-  "main": "index.js"
+  }
 }

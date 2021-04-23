@@ -40,7 +40,8 @@
     "uglify-js": "3.1.x"
   },
   "scripts": {
-    "test": "NODE_PATH=build util/test"
+    "test": "NODE_PATH=build util/test",
+    "build": "rm -rf build && make"
   },
   "main": "index.js"
 }

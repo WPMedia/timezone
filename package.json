@@ -45,5 +45,6 @@
   "scripts": {
     "test": "NODE_PATH=build util/test",
     "build": "rm -rf build && make"
-  }
+  },
+  "main": "build/timezone/index.js"
 }

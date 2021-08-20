@@ -1,13 +1,9 @@
-<a href="http://www.flickr.com/photos/wolfgangstaudt/3553572933/" title="Sundial by Wolfgang Staudt, on Flickr"><img src="http://farm4.staticflickr.com/3605/3553572933_5d30ced3e7_b.jpg"
-alt="Sundial"></a>
+# Timezone
 
-# Timezone [![Build Status](https://secure.travis-ci.org/bigeasy/timezone.png?branch=master)](http://travis-ci.org/bigeasy/timezone)
-
-Format time in JavaScript using the IANA time zone database. (Photo: Sundial by
-[Wolfgang Staudt](http://www.flickr.com/people/wolfgangstaudt/).)
+Format time in JavaScript using the IANA time zone database.
 
 ```javascript
-var tz = require('timezone/loaded'),
+var tz = require('@wpmedia/timezone/loaded'),
     equal = require('assert').equal,
     utc;
 
@@ -32,11 +28,13 @@ A full-featured time zone aware date formatter for JavaScript.
  * **Timezone** is a full featured standards based time library in pure
    JavaScript for under 3K minified and gzipped.
 
-## Hacking
+## Setup
 
 ```console
-$ git clone --quiet https://github.com/bigeasy/timezone.git
-$ cd timezone && make && npm install && npm test
+$ git clone --quiet https://github.com/WPMedia/timezone
+$ cd timezone
+$ git submodule update --init --recursive
+$ make && npm i && npm t
 ```
 
 ## License

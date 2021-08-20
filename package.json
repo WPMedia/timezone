@@ -19,6 +19,9 @@
     "calendar",
     "strftime"
   ],
+  "files": [
+    "build/timezone"
+  ],
   "homepage": "http://bigeasy.github.io/timezone",
   "bugs": "https://github.com/wpmedia/timezone/issues",
   "license": "MIT",

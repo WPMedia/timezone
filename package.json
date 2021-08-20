@@ -20,11 +20,11 @@
     "strftime"
   ],
   "homepage": "http://bigeasy.github.io/timezone",
-  "bugs": "https://github.com/@wpmedia/timezone/issues",
+  "bugs": "https://github.com/wpmedia/timezone/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "@wpmedia/timezone"
+    "url": "git+https://github.com/wpmedia/timezone.git"
   },
   "contributors": [
     "Eero Ränik <eeror@eeror.com> (http://www.eeror.com/)",

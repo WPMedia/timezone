@@ -30,11 +30,22 @@ A full-featured time zone aware date formatter for JavaScript.
 
 ## Setup
 
+Note the `git submodule update --init --recursive` command to initialize the submodules that sources some of the information. For more about submodules, see [Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+
 ```console
 $ git clone --quiet https://github.com/WPMedia/timezone
 $ cd timezone
 $ git submodule update --init --recursive
 $ make && npm i && npm t
+```
+
+## Testing 
+
+First, need to update the output in build folder via `make` and the `Makefile`. Then the test will be ran based on that update.
+
+```console
+$ make 
+$ npm t
 ```
 
 ## License

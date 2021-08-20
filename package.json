@@ -20,7 +20,7 @@
     "strftime"
   ],
   "files": [
-    "build/timezone"
+    "output"
   ],
   "homepage": "http://bigeasy.github.io/timezone",
   "bugs": "https://github.com/wpmedia/timezone/issues",
@@ -41,6 +41,7 @@
     "uglify-js": "3.1.x"
   },
   "scripts": {
-    "test": "NODE_PATH=build util/test"
+    "test": "NODE_PATH=build util/test",
+    "prepublishOnly": "make && cp -R build/timezone output"
   }
 }

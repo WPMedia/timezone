@@ -48,6 +48,26 @@ $ make
 $ npm t
 ```
 
+## Publishing 
+
+Make sure you have an `.npmrc` that is sso-enabled and allows for updating github packages.
+
+```.npmrc
+@wpmedia:registry=https://npm.pkg.github.com/
+registry=https://registry.npmjs.org
+
+//npm.pkg.github.com/:_authToken={token generated from github}
+```
+
+We want to publish the package with a flattened folder structure. So it's needed to run `npm publish build/timezone`. After any change is made to the package.json, the `make` command needs to run to update the build folder's `package.json` within `build/timezone/package.json`.
+
+To test what will be included in the npm publish, it's helpful to run `npm publish build/timezone --dry-run` to see what will be published.
+
+```console
+$ make
+$ npm publish build/timezone
+```
+
 ## License
 
 The [MIT License](https://raw.github.com/bigeasy/timezone/master/LICENSE).

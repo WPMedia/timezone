@@ -19,9 +19,6 @@
     "calendar",
     "strftime"
   ],
-  "files": [
-    "build/timezone"
-  ],
   "homepage": "http://bigeasy.github.io/timezone",
   "bugs": "https://github.com/wpmedia/timezone/issues",
   "license": "MIT",
@@ -41,7 +38,6 @@
     "uglify-js": "3.1.x"
   },
   "scripts": {
-    "test": "NODE_PATH=build util/test",
-    "prepublishOnly": "make"
+    "test": "NODE_PATH=build util/test"
   }
 }

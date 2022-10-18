@@ -1,6 +1,6 @@
 # Timezone
 
-> ℹ️ **_NOTE:_** This is a published fork of the [Timezone](https://github.com/bigeasy/timezone). The fork is published to `@wpmedia/timezone` to [GitHub Packages](https://github.com/WPMedia/timezone/pkgs/npm/timezone). Please see Setup below for more information around using GitHub Packages.
+> ℹ️ **_NOTE:_** This is a published fork of the [Timezone](https://github.com/bigeasy/timezone). The base library is no longer actively maintained. The fork is published to `@wpmedia/timezone` to [GitHub Packages](https://github.com/WPMedia/timezone/pkgs/npm/timezone). Please see Setup below for more information around using GitHub Packages.
 
 Format time in JavaScript using the IANA time zone database.
 

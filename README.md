@@ -63,9 +63,9 @@ registry=https://registry.npmjs.org
 //npm.pkg.github.com/:_authToken={token generated from github}
 ```
 
-We want to publish the package with a flattened folder structure. So it's needed to run `npm publish build/timezone`. After any change is made to the package.json, the `make` command needs to run to update the build folder's `package.json` within `build/timezone/package.json`.
+We want to publish the package with a flattened folder structure. So it's needed to run `npm publish @wpmedia/timezone`. After any change is made to the package.json, the `make` command needs to run to update the build folder's `package.json` within `build/timezone/package.json`.
 
-To test what will be included in the npm publish, it's helpful to run `npm publish build/timezone --dry-run` to see what will be published.
+To test what will be included in the npm publish, it's helpful to run `npm publish @wpmedia/timezone --dry-run` to see what will be published.
 
 ```console
 $ make
